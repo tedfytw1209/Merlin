@@ -44,3 +44,4 @@ for batch in dataloader:
     print(f"Contrastive image embeddings shape: {outputs[0].shape}")
     print(f"Phenotype predictions shape: {outputs[1].shape}")
     print(f"Contrastive text embeddings shape: {outputs[2].shape}")
+    print(outputs[1])
